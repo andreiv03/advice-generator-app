@@ -35,13 +35,14 @@
     .horizontal_line {
       height: 1px;
       background: var(--foreground);
+      border-radius: 0.25rem;
       opacity: 0.5;
       flex: 1;
     }
 
     .vertical_line {
       width: 0.4rem;
-      height: 1rem;
+      height: 1.2rem;
       border-radius: 0.25rem;
       background: var(--foreground);
     }
@@ -62,6 +63,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: box-shadow 100ms ease-in;
+
+    &:hover {
+      box-shadow: var(--box-shadow) 0px 0px 30px 5px;
+    }
   }
 }
 

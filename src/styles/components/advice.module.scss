@@ -1,0 +1,81 @@
+.advice {
+  position: relative;
+  width: min(500px, calc(100vw - 2rem));
+  min-height: 200px;
+  padding: 2.5rem 2rem 3.5rem;
+  border-radius: 0.75rem;
+  background: var(--background-two);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 1.5rem 0;
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+  }
+
+  .delimitation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .horizontal_line {
+      height: 1px;
+      background: var(--foreground);
+      opacity: 0.5;
+      flex: 1;
+    }
+
+    .vertical_line {
+      width: 0.4rem;
+      height: 1rem;
+      border-radius: 0.25rem;
+      background: var(--foreground);
+    }
+  }
+
+  .button {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--background-one);
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 475px) {
+  .advice {
+    border-radius: 0.5rem;
+
+    h3 {
+      font-size: 0.7rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}

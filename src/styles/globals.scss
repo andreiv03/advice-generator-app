@@ -1,0 +1,37 @@
+:root {
+  --foreground: #cee3e9;
+  --background-one: #202632;
+  --background-two: #313a49;
+  --accent: #56fca9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: var(--foreground);
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  background: var(--background-one);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Manrope
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");

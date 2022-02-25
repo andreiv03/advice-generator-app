@@ -2,7 +2,7 @@
   position: relative;
   width: min(500px, calc(100vw - 2rem));
   min-height: 200px;
-  padding: 2.5rem 2rem 3.5rem;
+  padding: 2.5rem 2rem 4rem;
   border-radius: 0.75rem;
   background: var(--background-two);
   text-align: center;
@@ -20,7 +20,7 @@
   }
 
   h2 {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 2rem;
     font-size: 1.75rem;
     font-weight: 800;
     letter-spacing: 0.5px;

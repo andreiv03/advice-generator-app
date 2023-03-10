@@ -1,26 +1,58 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    "baseUrl": "./src",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "components/*": ["components/*"],
+      "styles/*": ["styles/*"],
+      "utils/*": ["utils/*"]
+    },
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "rootDir": "./src",
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+
+    "declaration": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "preserveValueImports": true,
+    "removeComments": true,
+    "sourceMap": true,
+
+    "allowJs": true,
+    "checkJs": true,
+    "maxNodeModuleJsDepth": 0,
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "ES5",
+
+    "skipLibCheck": false
   },
-  "include": [
-    "src"
-  ]
+  "exclude": ["./build", "./node_modules"],
+  "include": ["./src"]
 }

@@ -34,8 +34,8 @@
 
     .horizontal_line {
       height: 1px;
-      background: var(--foreground);
       border-radius: 0.25rem;
+      background: var(--foreground);
       opacity: 0.25;
       flex: 1;
     }
@@ -63,15 +63,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: box-shadow 100ms ease-in;
+    transition: box-shadow 100ms ease;
 
     &:hover {
-      box-shadow: var(--box-shadow) 0px 0px 30px 5px;
+      box-shadow: rgba(84, 252, 168, 0.5) 0px 0px 30px 5px;
     }
   }
 }
 
-// Media Queries
 @media screen and (max-width: 475px) {
   .advice {
     border-radius: 0.5rem;

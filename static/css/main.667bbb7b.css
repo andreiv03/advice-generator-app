@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap);:root{--background-one:#202632;--background-two:#313a49;--foreground:#cee3e9;--accent:#56fca9}*,:after,:before{box-sizing:border-box;margin:0;padding:0}body,html{color:#cee3e9;color:var(--foreground);font-family:Manrope,sans-serif;font-size:16px}body{height:100vh;width:100vw}#root{align-items:center;background:#202632;background:var(--background-one);display:flex;height:100%;justify-content:center}
+/*# sourceMappingURL=main.667bbb7b.css.map*/

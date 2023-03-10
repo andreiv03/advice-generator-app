@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/advice-generator-app/static/css/main.40a7280d.css",
-    "main.js": "/advice-generator-app/static/js/main.367a525f.js",
+    "main.css": "/advice-generator-app/static/css/main.667bbb7b.css",
+    "main.js": "/advice-generator-app/static/js/main.cfca8c46.js",
+    "static/css/178.62f37f71.chunk.css": "/advice-generator-app/static/css/178.62f37f71.chunk.css",
+    "static/js/178.41e81ad8.chunk.js": "/advice-generator-app/static/js/178.41e81ad8.chunk.js",
+    "static/js/485.3e06f3c9.chunk.js": "/advice-generator-app/static/js/485.3e06f3c9.chunk.js",
     "index.html": "/advice-generator-app/index.html",
-    "main.40a7280d.css.map": "/advice-generator-app/static/css/main.40a7280d.css.map",
-    "main.367a525f.js.map": "/advice-generator-app/static/js/main.367a525f.js.map"
+    "main.667bbb7b.css.map": "/advice-generator-app/static/css/main.667bbb7b.css.map",
+    "main.cfca8c46.js.map": "/advice-generator-app/static/js/main.cfca8c46.js.map",
+    "178.62f37f71.chunk.css.map": "/advice-generator-app/static/css/178.62f37f71.chunk.css.map",
+    "178.41e81ad8.chunk.js.map": "/advice-generator-app/static/js/178.41e81ad8.chunk.js.map",
+    "485.3e06f3c9.chunk.js.map": "/advice-generator-app/static/js/485.3e06f3c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a7280d.css",
-    "static/js/main.367a525f.js"
+    "static/css/main.667bbb7b.css",
+    "static/js/main.cfca8c46.js"
   ]
 }

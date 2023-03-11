@@ -20,7 +20,7 @@
     "strictPropertyInitialization": true,
     "useUnknownInCatchVariables": true,
 
-    "baseUrl": "./src",
+    "baseUrl": "src",
     "module": "ESNext",
     "moduleResolution": "Node",
     "paths": {
@@ -29,8 +29,8 @@
       "utils/*": ["utils/*"]
     },
     "resolveJsonModule": true,
-    "rootDir": "./src",
-    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "rootDir": "src",
+    "typeRoots": ["src/types", "node_modules/@types"],
 
     "declaration": true,
     "noEmit": true,
@@ -53,6 +53,6 @@
 
     "skipLibCheck": false
   },
-  "exclude": ["./build", "./node_modules"],
-  "include": ["./src"]
+  "exclude": ["build", "node_modules"],
+  "include": ["src"]
 }

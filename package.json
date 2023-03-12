@@ -29,7 +29,7 @@
   "homepage": "https://andreiv03.github.io/advice-generator-app",
   "name": "advice-generator-app",
   "scripts": {
-    "build": "rm -rf ./build && react-scripts build",
+    "build": "rm -rf build && react-scripts build",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "start": "react-scripts start"
